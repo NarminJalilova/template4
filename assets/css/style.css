@@ -1,0 +1,230 @@
+main {
+    background-color:#111111;
+    margin:0px 500px;
+}
+.head-div img {
+ width:100%;
+ height: 400px;
+}
+.div1 {
+    height: 200px;
+    width: 100%;
+}
+.div2 {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:10%;
+    left: 20%;
+    color:#111111;
+    background-color: #eedede;
+   border-radius: 20px;
+   box-shadow: 10px  #111111;
+   font-size: 3.5rem;
+   gap: 20px;
+}
+.div2 p {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div2 button:nth-child(2) {
+ background-color: #111111;
+ color: #eedede;
+}
+.div2 button {
+    width:130px;
+    height: 45px;
+    box-shadow: 0px 2px 5px #111111;
+    font-size: 1rem;   
+}
+.div3 {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    color: #eedede;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    margin-top: 35px;
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 22px;
+}  
+.div3 .p2 {
+    margin-top: 15px;
+    color: #eedede;
+}
+.middle-div {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle-div div {
+    padding-left: 20px;
+}
+.middle-div img, .middle-div div {
+    width: 300px;
+    border-radius: 15px;
+}
+.middle-div .div2 {
+    left: 1%;
+    top: -35px;
+    height: 180px;
+}
+
+.middle-div .div3 {
+    left: 1%;
+    margin-top: 30px;
+    height: 240px;
+}
+.middle-div .div1 {
+   margin-top: 25px;
+   height: auto;
+}
+ 
+.middle-div div p {
+margin-left:50px;
+color: #eedede;
+font-size: 1.5rem;
+align-items: center;
+justify-content: center;
+padding-top: 15px;
+}
+ .middle-alt-div img {
+        width:100%;
+        height: 400px; 
+        margin-top: 50px;    
+ }
+
+ .last-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eedede;
+    margin-top: 60px;
+    gap: 25px;
+    font-size: 2rem;
+ }
+.last-div h1 {   
+    font-weight: bold;
+    font-size: 3rem;   
+}
+.last-div button {
+    background-color: #111111;
+    padding: 20px;
+    font-size: 1rem;
+    color: #eedede;
+    width: 150px;
+    border: 2px solid #eedede;
+    box-shadow: 0 0 4px #eedede;
+}
+
+.last-div img {
+    width: 65%;
+}
+.latest-div2 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.div-2 {
+    background-color: #cd8c8c;
+    border-radius: 25px;
+    font-size: 2rem;
+    width: 420px;
+   padding: 30px;
+   height: 300px;
+   line-height: 35px;
+}
+.div-1 img {
+    width: 450px;
+    height: 360px;
+    border-radius: 25px;
+}
+ .latest-div2 button {
+    background-color: #111111;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #eedede;
+    width: 190px;
+    border: 2px solid #eedede;
+    box-shadow: 0 0 4px #eedede;
+    margin-right: auto;
+    margin-left: 80px;
+}
+.latest-div3 {
+    margin-top: 80px;
+}
+.d-2, .p-2 {
+    margin-left:100px;
+    padding: 30px;
+}
+
+.latest-div3 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.latest-div3 h4 {
+   color: #eedede;
+   font-size: 3rem;
+}
+.p-1 {
+    padding-top: 10px;
+    color:#eedede;
+    font-size: 2rem;   
+}
+.p-2 {
+    color: #eedede;
+    font-size: 1.5rem;
+}
+.d-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.latest-div4 {
+    display: flex;
+    flex-direction: row;
+    color: #eedede;
+    font-size: 1.5rem;
+    margin: 100px;
+    gap:100px;
+    padding-bottom: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.latest-div4 h5 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.latest-div4 p:nth-child(4) {
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+footer {
+    background-color: #585252;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100px;
+    padding-left: 400px;
+    color: #eedede;
+    padding-top: 80px;
+}
+
